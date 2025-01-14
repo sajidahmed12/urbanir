@@ -1,10 +1,13 @@
-# UrbanIR: Large-Scale Urban Scene Inverse Rendering from a Single Video
+<h1 align="center"> UrbanIR: Large-Scale Urban Scene </br> Inverse Rendering from a Single Video</h1>
+<h2 align="center">3DV 2025</h2>
+<h2 align="center"><a href="https://urbaninverserendering.github.io/" target="_blank">Project Page</a> | <a href="https://arxiv.org/abs/2306.09349" target="_blank">Paper</a> | <a href="https://uofi.box.com/s/c6ocdrqktrbah661cmvw9njcfqu24ric" target="_blank">Data</a> | <a href="https://uofi.box.com/s/4e4ud4dwgwfqwoytz66emywauyrneqxz" target="_blank">Checkpoints</a></h2>
 
-### [Project Page](https://urbaninverserendering.github.io/) | [Paper](https://arxiv.org/abs/2306.09349) | [Data](https://uofi.box.com/s/c6ocdrqktrbah661cmvw9njcfqu24ric) | [Checkpoints](https://uofi.box.com/s/4e4ud4dwgwfqwoytz66emywauyrneqxz)
+<!-- ### [Project Page](https://urbaninverserendering.github.io/) | [Paper](https://arxiv.org/abs/2306.09349) | [Data](https://uofi.box.com/s/c6ocdrqktrbah661cmvw9njcfqu24ric) | [Checkpoints](https://uofi.box.com/s/4e4ud4dwgwfqwoytz66emywauyrneqxz) -->
 
-[Zhi-Hao Lin<sup>1</sup>](https://zhihao-lin.github.io/), [Bohan Liu<sup>1</sup>](https://www.linkedin.com/in/bohanliu524/?locale=en_US), [Yi-Ting Chen<sup>2</sup>](https://jamie725.github.io/website/), Kuan-Sheng Chen<sup>1</sup>, [David Forsyth<sup>1</sup>](http://luthuli.cs.uiuc.edu/~daf/), [Jia-Bin Huang<sup>2</sup>](https://jbhuang0604.github.io/), [Anand Bhattad<sup>1</sup>](https://anandbhattad.github.io/), [Shenlong Wang<sup>1</sup>](https://shenlong.web.illinois.edu/)
+<p align="center"><a href="https://chih-hao-lin.github.io/" target="_blank">Chih-Hao Lin<sup>1</sup></a>, <a href="https://www.linkedin.com/in/bohanliu524/?locale=en_US" target="_blank">Bohan Liu<sup>1</sup></a>, <a href="https://jamie725.github.io/website/" target="_blank">Yi-Ting Chen<sup>2</sup></a>, <a href="https://www.linkedin.com/in/kuanshengchen" target="_blank">Kuan-Sheng Chen<sup>1</sup></a>, </br> <a href="http://luthuli.cs.uiuc.edu/~daf/" target="_blank">David Forsyth<sup>1</sup></a>, <a href="https://jbhuang0604.github.io/" target="_blank">Jia-Bin Huang<sup>2</sup></a>, <a href="https://anandbhattad.github.io/" target="_blank">Anand Bhattad<sup>1</sup></a>, <a href="https://shenlong.web.illinois.edu/" target="_blank">Shenlong Wang<sup>1</sup></a></p>
 
-<sup>1</sup>University of Illinois at Urbana-Champaign, <sup>2</sup>University of Maryland, College Park
+<p align="center"> <sup>1</sup>University of Illinois at Urbana-Champaign, <sup>2</sup>University of Maryland, College Park</p>
+
 
 ![teaser](docs/images/teaser.jpg)
 
