@@ -1,6 +1,6 @@
 <h1 align="center"> UrbanIR: Large-Scale Urban Scene </br> Inverse Rendering from a Single Video</h1>
-<h2 align="center">3DV 2025</h2>
-<h2 align="center"><a href="https://urbaninverserendering.github.io/" target="_blank">Project Page</a> | <a href="https://arxiv.org/abs/2306.09349" target="_blank">Paper</a> | <a href="https://uofi.box.com/s/c6ocdrqktrbah661cmvw9njcfqu24ric" target="_blank">Data</a> | <a href="https://uofi.box.com/s/4e4ud4dwgwfqwoytz66emywauyrneqxz" target="_blank">Checkpoints</a></h2>
+<p align="center">3DV 2025</p>
+<p align="center"><a href="https://urbaninverserendering.github.io/" target="_blank">Project Page</a> | <a href="https://arxiv.org/abs/2306.09349" target="_blank">Paper</a> | <a href="https://uofi.box.com/s/c6ocdrqktrbah661cmvw9njcfqu24ric" target="_blank">Data</a> | <a href="https://uofi.box.com/s/4e4ud4dwgwfqwoytz66emywauyrneqxz" target="_blank">Checkpoints</a></p>
 
 <!-- ### [Project Page](https://urbaninverserendering.github.io/) | [Paper](https://arxiv.org/abs/2306.09349) | [Data](https://uofi.box.com/s/c6ocdrqktrbah661cmvw9njcfqu24ric) | [Checkpoints](https://uofi.box.com/s/4e4ud4dwgwfqwoytz66emywauyrneqxz) -->
 
