@@ -78,13 +78,13 @@ requires = [
 build-backend = "setuptools.build_meta"
 ```
 
-### now run
+### Run to build vren
 ```
 python setup.py build_ext --inplace
 or 
 pip install . --no-build-isolation
 ```
-### Add to PYTHONPATH if not found
+## 🔦 Add to PYTHONPATH if not found
 ```
 export TCNN_CUDA_ARCHITECTURES="80;86;89" 
 export PYTHONPATH=/home/sajid/workspace/urbanir/models/csrc/build/lib.linux-x86_64-cpython-39:$PYTHONPATH
