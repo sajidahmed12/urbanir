@@ -25,7 +25,12 @@ The code has been tested on:
 ```
 Follow this GitHub Gist for installing CUDA, CuDNN and Nvidia Drivers: https://gist.github.com/sajidahmed12/886be772fa02aebe75e62a5534fa8176
 ```
-
+Install NinJa via APT
+```
+sudo apt update
+sudo apt install ninja-build
+ninja --version
+```
 - Create Conda environment:
 ```
 conda create -n urbanir -y python=3.9
@@ -51,9 +56,6 @@ git clone --recursive https://github.com/NVlabs/tiny-cuda-nn.git
 ```
 Then use your favorite editor to edit `tiny-cuda-nn/include/tiny-cuda-nn/common.h` and set `TCNN_HALF_PRECISION` to `0` (see [NVlabs/tiny-cuda-nn#51](https://github.com/NVlabs/tiny-cuda-nn/issues/51) for details)
 
-export TCNN_CUDA_ARCHITECTURES="80;86;89" 
-export PYTHONPATH=/home/sajid/workspace/urbanir/models/csrc/build/lib.linux-x86_64-cpython-39:$PYTHONPATH
-
 
 ```
 cd tiny-cuda-nn/bindings/torch
@@ -64,7 +66,7 @@ python setup.py install
 cd models/csrc
 touch pyproject.toml
 ```
-### Add these to the toml file
+### Add these lines to the toml file
 ```
 [build-system]
 requires = [
@@ -81,6 +83,11 @@ build-backend = "setuptools.build_meta"
 python setup.py build_ext --inplace
 or 
 pip install . --no-build-isolation
+```
+### Add to PYTHONPATH if not found
+```
+export TCNN_CUDA_ARCHITECTURES="80;86;89" 
+export PYTHONPATH=/home/sajid/workspace/urbanir/models/csrc/build/lib.linux-x86_64-cpython-39:$PYTHONPATH
 ```
 
 ## 🔦 Dataset and Checkpoints
